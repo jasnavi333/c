@@ -1,0 +1,14 @@
+#include <stdio.h>
+int n=-7;
+int main()
+{
+   if(n>0)
+   {
+      printf("the number is positive");
+   }
+   else
+         {
+            printf("the number is negative");
+         }
+          return 0;
+}
