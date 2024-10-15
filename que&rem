@@ -1,0 +1,12 @@
+#include <stdio.h>
+int a,b,que,rem;
+int main()
+{
+   printf("enter a,b values);
+   scanf("%d %d",&a &b);
+   que=a/b;
+   printf("enter a,b values);
+   scanf("%d %d",&a &b);
+   rem=a%b;
+   return 0;
+}
