@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+char string1[50],string2[50];
+void  main()
+{
+  printf("enter first name:");
+  fgets(string1,sizeof(string1),stdin);
+  puts(string1);
+  printf("enter second name:");
+  fgets(string2,sizeof(string2),stdin);
+  puts(string2);
+  printf("full name is %s",strcat(string1,string2));
+}
