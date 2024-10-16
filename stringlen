@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+char string[8];
+int  main()
+{
+  printf("enter your name");
+  fgets(string,sizeof(string),stdin);
+  puts(string);
+  printf("the length of name is %d",strcat(string));
+  return 0;
+}
