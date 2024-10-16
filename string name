@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+char string[7]="sunitha";
+void main()
+{
+    printf("%c\t",string[0]);
+    puts(string);
+}
