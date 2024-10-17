@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+    char name[10][10];
+    int a;
+    printf("enter number of names :");
+    scanf("%d",&a);
+    for(int i=0;i<a;i++)
+    {
+        scanf("%s",name[i]);
+    }
+      printf("\nthe names are as follows...");
+      for(int i=0;i<a;i++)
+    {
+        printf("\names %d.%s",i+1,name[i]);
+    }
+
+}
