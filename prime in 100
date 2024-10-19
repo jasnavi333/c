@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    for(int i=2;i<100;i++)
+    {
+        int fact=0;
+        for(int j=2;j<100;j++)
+        {
+           if(i%j==0)
+              fact=fact+1;
+        }
+            if(fact==1)
+            printf("%d\n",i);
+    }
+}
