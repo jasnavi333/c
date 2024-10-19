@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter two numbers");
+    scanf("%d%d",&a,&b);
+    int max=a>b?a:b;
+    int step=max;
+    while(2)
+    {
+        if(max%a==0&&max%b==0)
+        {
+            printf("the lcm is %d",max);
+            break;
+        }
+      else
+     {
+        max=max+step;
+     }
+    }
+}
