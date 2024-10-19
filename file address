@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    FILE*fptr;
+    fptr=fopen("ece.txt","a");
+    fputs("this is last day",fptr);
+    fclose(fptr);
+    return 0;
+}
