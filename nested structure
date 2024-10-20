@@ -1,0 +1,25 @@
+#include <stdio.h>
+struct address{
+    char street[50];
+    char city[50];
+    char state[50];
+    int pincode;
+};
+struct emp{
+    int empid;
+    char name[50];
+    float salary;
+    struct address empaddress;
+};
+int main(){
+    struct emp employee={101,"raju",5000.0,{"123 str","eluru","andra pradesh",534002}};
+    printf("name:%s\n",employee.name);
+    printf("employeeid: %d\n",employee.empid);
+    printf("salary:%.2f\n",employee.salary);
+    printf("adress:\n");
+    printf("\t street: %s\n",employee.empaddress.street);
+    printf("\t city: %s\n",employee.empaddress.city);
+    printf("\t state: %s\n",employee.empaddress.state);
+    printf("\t pincode: %d\n",employee.empaddress.pincode);
+    return 0;
+}
